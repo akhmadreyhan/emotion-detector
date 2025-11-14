@@ -2,7 +2,7 @@
 Detect user emotion based on facial expression with CNN.
 
 ## Testing
-[![Testing App Video in Here](https://www.youtube.com/watch?v=AaKJ41u9dVA)
+[Testing App Video in Here](https://www.youtube.com/watch?v=AaKJ41u9dVA)
 
 ## Class
 Predict 7 type of human emotion : angry, happy, sad, suprise, neutral, disgust, fear
