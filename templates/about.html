@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - FaceR</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="navbar">
+        <h3>FaceR</h3>
+        <div class="about-btn"><a href="/about">About</a></div>
+    </div>
+
+    <div class="section">
+        <div class="left-pp">
+            <img src="{{ url_for('static', filename='assets/profile-picture.jpg') }}" alt="User Image" style="width: 450px; height: 450px; border-radius: 50%; background-color: #556;"/>
+        </div>
+
+        <div class="describe">
+            <div class="desc">
+                <h1>Hello <span>😊</span></h1>
+                <p style="font-size: 0.95rem; color: #666;">Saya <div class="name">Akhmad Reyhan Rustani</div><br>Seorang Mahasiswa UTY Sains Data yang tertarik dengan machine learning. <br>Senang mempelajari hal-hal baru. Salam Kenal!</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

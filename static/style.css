@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body {
+  background-color: #f9f5f5;
+  color: #222;
+  padding: 2rem;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3rem;
+  margin-left: 2rem;
+  margin-right: 2.5rem;
+}
+.about-btn {
+  background-color: #111;
+  color: #fff;
+  padding: 0.4rem 1rem;
+  border-radius: 10px;
+  font-weight: 600;
+}
+.about-btn a{
+  text-decoration: none;
+  color: #fff;
+}
+.section {
+  position: relative;
+  top: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5rem;
+}
+.left {
+  max-width: 48%;
+  margin-left: 8.5rem;
+}
+.left h1 {
+  font-size: 5rem;
+  font-weight: 700;
+  line-height: 1.4;
+  margin-bottom: 1.5rem;
+}
+.left h1 span {
+  font-size: 2rem;
+}
+.left h1 .detail-bottom {
+  position: relative;
+  top: auto;
+}
+.left p {
+  color: #555;
+  margin-bottom: 1.5rem;
+}
+.left small {
+  color: #888;
+  text-transform: uppercase;
+}
+.left #angry {
+  color: #C70039;
+}
+.left #neutral {
+  color: #A9A9A9;
+}
+.left #happy {
+  color: #D4AF37;
+}
+.left #sad {
+  color: #4A6FA5;
+}
+.left #disgust {
+  color: #556B2F;
+}
+.left #fear {
+  color: #5D5D7E;
+}
+.left #suprised {
+  color: #D2691E;
+}
+.btn {
+  background-color: #2b2a2a;
+  color: #fff;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+.btn a{
+  text-decoration: none;
+  color: #fff;
+}
+.emoji-group{
+  position: relative;
+  right: 2.5rem;
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+  margin-bottom: 7.5rem;
+}
+.emoji-group img{
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform-origin: center center;
+}
+.emoji-group #image1{
+  transform:  rotate(0deg) translate(115px) rotate(0deg);
+}
+.emoji-group #image2{
+  transform:  rotate(60deg) translate(115px) rotate(-60deg);
+}
+.emoji-group #image3{
+  transform:  rotate(120deg) translate(115px) rotate(-120deg);
+}
+.emoji-group #image4{
+  transform:  rotate(180deg) translate(115px) rotate(-180deg);
+}
+.emoji-group #image5{
+  transform:  rotate(240deg) translate(115px) rotate(-240deg);
+}
+.emoji-group #image6{
+  transform:  rotate(300deg) translate(115px) rotate(-300deg);
+}
+.center-emoji{
+  transform: translate(-1%, -1%);
+  z-index: 1;
+}
+
+/* capture video */
+.camera-section{
+  position: relative;
+  right: 2.5rem;
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+  margin-bottom: 7.5rem;
+  margin-left: 9rem;
+}
+#video {
+  width: 400px;
+  height: auto;
+  border-radius: 20px;
+  padding: 0.2rem;
+  border: 3px solid #000;
+}
+.capture-button {
+  width: 400px;
+  position: relative;
+  top: 9px;
+  background-color: #2b2a2a;
+  color: #fff;
+}
+
+/* results */
+
+.results-predict {
+  position: relative;
+  right: 2.5rem;
+  height: auto;
+  margin: 0 auto;
+  margin-bottom: 7.5rem;
+  margin-left: 4.7rem;
+  text-align: center;
+}
+.results-predict img{
+  width: 150px;
+  height: 150px;
+}
+.quote {
+  font-size: 1.1rem;
+  color: #666;
+  font-style: italic;
+  max-width: 600px;
+  word-spacing: 0.5px;
+  margin-top: 1.1rem;
+}
+
+/* about */
+
+.left-pp{
+  max-width: 48%;
+  position: relative;
+  left: 28vh;
+}
+.describe{
+  position: relative;
+  right: 25vh;
+  height: auto;
+}
+.desc{
+  text-align: center;
+}
+.desc h1{
+  font-size: 50px;
+}
+.desc h1 span{
+  font-size: 3rem;
+}
+.name{
+  font-weight: 800;
+}

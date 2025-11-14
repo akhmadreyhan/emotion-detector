@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="navbar">
+        <h3>FaceR</h3>
+        <div class="about-btn"><a href="/about">About</a></div>
+    </div>
+
+    <div class="section">
+        <div class="left">
+            <div class="small">• home — capture face - results</div>
+            <h1>Based on your face, we think you're feeling <div class="highlight" id="{{id}}">{{class_name}}</div></h1>
+        </div>
+        <div class="results-predict">
+            <img src="{{ url_for('static', filename=emoji) }}" alt="emoji">
+            <p class="quote">"{{quote}}"<br>- {{author}}</p>
+        </div>
+    </div>
+</body>
+</html>

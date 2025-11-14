@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="navbar">
+        <h3>FaceR</h3>
+        <div class="about-btn"><a href="/about">About</a></div>
+    </div>
+    
+    <div class="section">
+        <div class="left">
+            <div class="small">• home — capture face</div>
+            <h1>Capture your beautiful <b>face</b> <span> and  <div class="detail-bottom">we recognize it for you :) </div> </span> </h1>
+        </div>
+        <div class="camera-section">
+            <video id="video" autoplay playsinline></video>
+            <button class="btn capture-button" id="capture-btn">Capture</button>
+            <form id="upload-form" method="POST" action="/submit" enctype="multipart/form-data">
+                <input type="hidden" name="image" id="image">
+                <script src="{{ url_for('static', filename='camera.js') }}"></script>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

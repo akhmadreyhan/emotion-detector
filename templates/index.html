@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="navbar">
+        <h3>FaceR</h3>
+        <div class="about-btn"><a href="/about">About</a></div>
+    </div>
+
+    <div class="section">
+        <div class="left">
+            <h1>Recognize your feelings.</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, ducimus sunt aspernatur similique voluptates repellat error illum maxime, voluptate corrupti 
+                dolor quaerat eius! Eum, molestiae. Numquam eaque qui fugit natus.</p>
+            <button class="btn"><a href="/capture_page">TRY NOW</a></button>
+        </div>
+        <div class="emoji-group">
+            <img src="{{ url_for('static', filename='assets/emoji/neutral.png') }}" alt="emoji" class="emoji-group center-emoji"/>
+            <img src="{{ url_for('static', filename='assets/emoji/angry.png') }}" alt="emoji" id="image1" />
+            <img src="{{ url_for('static', filename='assets/emoji/disgust.png') }}" alt="emoji" id="image2"/>
+            <img src="{{ url_for('static', filename='assets/emoji/fear.png') }}" alt="emoji" id="image3"/>
+            <img src="{{ url_for('static', filename='assets/emoji/happy.png') }}" alt="emoji" id="image4"/>
+            <img src="{{ url_for('static', filename='assets/emoji/suprised.png') }}" alt="emoji" id="image5"/>
+            <img src="{{ url_for('static', filename='assets/emoji/sad.png') }}" alt="emoji" id="image6"/>
+        </div>
+    </div>
+</body>
+</html>
